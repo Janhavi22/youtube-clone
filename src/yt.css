@@ -250,7 +250,7 @@ nav{
  .playvdo .playvdo-info{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 10px;
     font-size: 14px;
@@ -261,4 +261,15 @@ nav{
     width: 20px;
     margin-right: 8px;
 
+ }
+ .playvdo .playvdo-info a{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+ }
+ .playvdo hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
  }
