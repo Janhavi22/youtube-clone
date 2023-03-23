@@ -246,6 +246,8 @@ nav{
  .playvdo h3{
     font-weight: 600;
     font-size: 22px;
+    margin: 10px;
+    margin-left: 0;
  }
  .playvdo .playvdo-info{
     display: flex;
@@ -273,3 +275,47 @@ nav{
     background: #ccc;
     margin: 10px 0;
  }
+ .publisher{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+ }
+ .publisher div{
+    flex: 1;
+    line-height:18px ;
+ }
+ .publisher img{
+    width: 30px;
+    margin: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+ }
+ .publisher div p{
+    color:#000 ;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 18px;
+ } 
+.publisher div span{
+    font-size: 18px;
+    margin: 10px;
+    color: #5a5a5a;
+}
+.publisher button{
+    background: red;
+    color: #fff;
+    padding: 8px 3e0px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.vdo-desc{
+    padding-left: 55px;
+    margin: 15px 0;
+}
+.vdo-desc p{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #5a5a5a;
+}
