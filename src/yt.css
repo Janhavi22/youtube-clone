@@ -319,3 +319,85 @@ nav{
     margin-bottom: 5px;
     color: #5a5a5a;
 }
+.vdo-desc h4{
+    font-size: 14px ;
+    color: #5a5a5a;
+    margin-top: 15px;
+}
+.add-com{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+
+}
+.add-com img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.add-com input{
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding-top: 10px;
+     background: transparent;
+}
+.old-com{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.old-com img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right:15px ;
+}
+.old-com h3{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.old-com h3 span{
+    font-size: 12px;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-left: 8px;
+}
+.old-com .com-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 15px;
+}
+.old-com .com-action img{
+    border-radius: 0;
+    width: 20px;
+    margin-right: 5px;
+}
+.old-com .com-action span{
+    margin-right: 20px;
+    color: #5a5a5a;
+}
+.old-com .com-action a{
+    color: #0000ff;
+    font-size: 15px;
+}
+@media (max-width:900px){
+    .playvdo{
+        flex-basis: 100%;
+    }
+    .right-sidebar{
+        flex-basis: 100%;
+    }
+    .play-container{
+        padding-left: 5%;
+    }
+    .vdo-desc{
+        padding-left:0 ;
+    }
+    .playvdo .playvdo-info a{
+        margin-left:0 ;
+        margin-right:15px;
+        margin-top: 15px;
+    }
+}
